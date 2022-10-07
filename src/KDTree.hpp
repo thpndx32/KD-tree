@@ -146,7 +146,10 @@ const ElemType &KDTree<N, ElemType>::at(const Point<N> &pt) const {
 
 template <size_t N, typename ElemType>
 ElemType KDTree<N, ElemType>::knn_value(const Point<N> &key, size_t k) const {
-  // TODO(me): Fill this in.
+  Node<value_type*>**  ptr;
+  Node<value_type*>* aux;
+  aux =nodes;
+  ptr = &aux;
   ElemType new_element;
   return new_element;
 }
