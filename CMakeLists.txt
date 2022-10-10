@@ -1,4 +1,4 @@
-project("KDTree")
+project("KDTree" VERSION 1.0)
 
 cmake_minimum_required(VERSION 3.15)
 
